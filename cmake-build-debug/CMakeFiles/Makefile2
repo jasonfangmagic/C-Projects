@@ -53,16 +53,16 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jason\CProjects
+CMAKE_SOURCE_DIR = D:\C++Projects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jason\CProjects\cmake-build-debug
+CMAKE_BINARY_DIR = D:\C++Projects\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CProjects.dir/all
+all: CMakeFiles/C__Projects.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CProjects.dir/clean
+clean: CMakeFiles/C__Projects.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CProjects.dir
+# Target rules for target CMakeFiles/C__Projects.dir
 
 # All Build rule for target.
-CMakeFiles/CProjects.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CProjects.dir\build.make CMakeFiles/CProjects.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CProjects.dir\build.make CMakeFiles/CProjects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\jason\CProjects\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target CProjects"
-.PHONY : CMakeFiles/CProjects.dir/all
+CMakeFiles/C__Projects.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\C++Projects\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target C__Projects"
+.PHONY : CMakeFiles/C__Projects.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CProjects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jason\CProjects\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CProjects.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jason\CProjects\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/CProjects.dir/rule
+CMakeFiles/C__Projects.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Projects\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/C__Projects.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Projects\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/C__Projects.dir/rule
 
 # Convenience name for target.
-CProjects: CMakeFiles/CProjects.dir/rule
-.PHONY : CProjects
+C__Projects: CMakeFiles/C__Projects.dir/rule
+.PHONY : C__Projects
 
 # clean rule for target.
-CMakeFiles/CProjects.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CProjects.dir\build.make CMakeFiles/CProjects.dir/clean
-.PHONY : CMakeFiles/CProjects.dir/clean
+CMakeFiles/C__Projects.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/clean
+.PHONY : CMakeFiles/C__Projects.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

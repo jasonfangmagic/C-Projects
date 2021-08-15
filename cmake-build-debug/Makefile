@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jason\CProjects
+CMAKE_SOURCE_DIR = D:\C++Projects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jason\CProjects\cmake-build-debug
+CMAKE_BINARY_DIR = D:\C++Projects\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jason\CProjects\cmake-build-debug\CMakeFiles C:\Users\jason\CProjects\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Projects\cmake-build-debug\CMakeFiles D:\C++Projects\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jason\CProjects\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Projects\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CProjects
+# Target rules for targets named C__Projects
 
 # Build rule for target.
-CProjects: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CProjects
-.PHONY : CProjects
+C__Projects: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C__Projects
+.PHONY : C__Projects
 
 # fast build rule for target.
-CProjects/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CProjects.dir\build.make CMakeFiles/CProjects.dir/build
-.PHONY : CProjects/fast
+C__Projects/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/build
+.PHONY : C__Projects/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CProjects.dir\build.make CMakeFiles/CProjects.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CProjects.dir\build.make CMakeFiles/CProjects.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CProjects.dir\build.make CMakeFiles/CProjects.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... CProjects
+	@echo ... C__Projects
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
