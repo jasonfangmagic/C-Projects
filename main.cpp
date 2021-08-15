@@ -2,12 +2,11 @@
 using namespace std;
 
 int main(){
-    cout<< "Hello World!" << "Jason\n";
-    cout<< "Hello World!" << "Jason";
+    cout<< "Hello World!" << " from Jason Fang\n";
+    cout<< "Now is" << " 08/15/2021 6:30 PM EST";
     return 0;
 }
 
 /*
-    g++ -o runProgram main.cpp
-    runProgram.exe
+    g++ -o runProgram main.cpp && runProgram.exe
  */
