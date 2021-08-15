@@ -3,10 +3,11 @@
 using namespace std;
 
 int main() {
-    int n, x;
+    int n, y;
     cin >> n;
-    cin >> x;
-    cout <<n <<endl;
-    cout << x;
-
+    cout << n <<endl;
+    cin.clear();
+    cin.ignore(10000,'\n');
+    cin >> y;
+    cout << y;
 }
