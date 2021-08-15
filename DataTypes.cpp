@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(){
-    int x = 2;
-    string name = "Jason";
+    int x;
+    string nameOfJason = "Jason";
     cout << y;
 
 }
