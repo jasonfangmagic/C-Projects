@@ -8,5 +8,6 @@ int main(){
 }
 
 /*
+    use Git
     g++ -o runProgram main.cpp && runProgram.exe
  */
