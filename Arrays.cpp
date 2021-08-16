@@ -10,7 +10,8 @@ int main(){
     cout<< arr[0] << endl;
 
     //size of the array//
-    cout << sizeof(arr)/sizeof(arr[0]);
+    cout << sizeof(arr2) << endl;
+    cout << sizeof(arr2)/sizeof(arr2[0]);
 }
 
 
