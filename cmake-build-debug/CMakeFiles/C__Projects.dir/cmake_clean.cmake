@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C__Projects.dir/ifelse.cpp.obj"
+  "CMakeFiles/C__Projects.dir/forloops.cpp.obj"
   "C__Projects.exe"
   "C__Projects.exe.manifest"
   "C__Projects.pdb"

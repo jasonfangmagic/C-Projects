@@ -128,29 +128,29 @@ C__Projects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/build
 .PHONY : C__Projects/fast
 
-ifelse.obj: ifelse.cpp.obj
-.PHONY : ifelse.obj
+forloops.obj: forloops.cpp.obj
+.PHONY : forloops.obj
 
 # target to build an object file
-ifelse.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/ifelse.cpp.obj
-.PHONY : ifelse.cpp.obj
+forloops.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/forloops.cpp.obj
+.PHONY : forloops.cpp.obj
 
-ifelse.i: ifelse.cpp.i
-.PHONY : ifelse.i
+forloops.i: forloops.cpp.i
+.PHONY : forloops.i
 
 # target to preprocess a source file
-ifelse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/ifelse.cpp.i
-.PHONY : ifelse.cpp.i
+forloops.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/forloops.cpp.i
+.PHONY : forloops.cpp.i
 
-ifelse.s: ifelse.cpp.s
-.PHONY : ifelse.s
+forloops.s: forloops.cpp.s
+.PHONY : forloops.s
 
 # target to generate assembly for a file
-ifelse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/ifelse.cpp.s
-.PHONY : ifelse.cpp.s
+forloops.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/forloops.cpp.s
+.PHONY : forloops.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__Projects
-	@echo ... ifelse.obj
-	@echo ... ifelse.i
-	@echo ... ifelse.s
+	@echo ... forloops.obj
+	@echo ... forloops.i
+	@echo ... forloops.s
 .PHONY : help
 
 
