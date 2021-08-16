@@ -5,12 +5,16 @@ using namespace std;
 int main () {
     int x;
     cin >> x ;
-    if (x == 10) {
-        cout << "This is my fav number!";
-    } else {
-        cout << "This is not my fav number!";
+    if (x == 10 || x == 9) {
+        cout << "This is my fav number!" << endl;
+    } else if (x < 5) {
+        cout << "X is less than 5" << endl;
+    }else {
+            cout << "This is not my fav number!";
+        }
     }
-}
+
+
 
 
 
