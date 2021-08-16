@@ -3,10 +3,11 @@
 using namespace std;
 
 int main(){
-    int x = 8;
-    int y = 9;
-    int sum = x + y;
-    cout << sum;
+    int x = 12;
+    x++;
+    int y = 5;
+    float sum = x*y;
+    cout << x % y;
 
 
 }
