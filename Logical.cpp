@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
     bool x = !(1<2);
+    bool y = true && false;
     cout << x;
 
 }
@@ -12,4 +13,9 @@ int main(){
  ! not
  && and
  || or
+
+ Simplified
+ bool test = !(!false || !true);
+           = !!false && !! true;
+           = false && true;
  */
