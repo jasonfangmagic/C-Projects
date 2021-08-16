@@ -18,4 +18,9 @@ int main(){
  bool test = !(!false || !true);
            = !!false && !! true;
            = false && true;
+
+ bool test = (!(false || !true) || !!true) && true;
+           = ((!false && true) || true) && true;
+           = ((true && true) ||true)  && true;
+           = true;
  */
