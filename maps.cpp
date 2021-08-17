@@ -11,7 +11,12 @@ int main() {
     mp['a'] = 9;
     mp.insert(pair<char,int>('j',8));
     mp.erase('J');
-    cout << mp['J'] << endl;
+
+    for (auto itr = mp.begin(); itr != mp.end(); ++itr) {
+        cout << itr->first <<endl;
+        /*cout << itr->second << endl;*/
+    }
+
 }
 
 
