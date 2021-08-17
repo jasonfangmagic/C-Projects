@@ -128,29 +128,29 @@ C__Projects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/build
 .PHONY : C__Projects/fast
 
-switch.obj: switch.cpp.obj
-.PHONY : switch.obj
+strings.obj: strings.cpp.obj
+.PHONY : strings.obj
 
 # target to build an object file
-switch.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/switch.cpp.obj
-.PHONY : switch.cpp.obj
+strings.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/strings.cpp.obj
+.PHONY : strings.cpp.obj
 
-switch.i: switch.cpp.i
-.PHONY : switch.i
+strings.i: strings.cpp.i
+.PHONY : strings.i
 
 # target to preprocess a source file
-switch.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/switch.cpp.i
-.PHONY : switch.cpp.i
+strings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/strings.cpp.i
+.PHONY : strings.cpp.i
 
-switch.s: switch.cpp.s
-.PHONY : switch.s
+strings.s: strings.cpp.s
+.PHONY : strings.s
 
 # target to generate assembly for a file
-switch.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/switch.cpp.s
-.PHONY : switch.cpp.s
+strings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/strings.cpp.s
+.PHONY : strings.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__Projects
-	@echo ... switch.obj
-	@echo ... switch.i
-	@echo ... switch.s
+	@echo ... strings.obj
+	@echo ... strings.i
+	@echo ... strings.s
 .PHONY : help
 
 

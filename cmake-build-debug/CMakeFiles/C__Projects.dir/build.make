@@ -65,27 +65,27 @@ include CMakeFiles/C__Projects.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C__Projects.dir/flags.make
 
-CMakeFiles/C__Projects.dir/switch.cpp.obj: CMakeFiles/C__Projects.dir/flags.make
-CMakeFiles/C__Projects.dir/switch.cpp.obj: ../switch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__Projects.dir/switch.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\C__Projects.dir\switch.cpp.obj -c D:\C++Practice\switch.cpp
+CMakeFiles/C__Projects.dir/strings.cpp.obj: CMakeFiles/C__Projects.dir/flags.make
+CMakeFiles/C__Projects.dir/strings.cpp.obj: ../strings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C__Projects.dir/strings.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\C__Projects.dir\strings.cpp.obj -c D:\C++Practice\strings.cpp
 
-CMakeFiles/C__Projects.dir/switch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__Projects.dir/switch.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Practice\switch.cpp > CMakeFiles\C__Projects.dir\switch.cpp.i
+CMakeFiles/C__Projects.dir/strings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C__Projects.dir/strings.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Practice\strings.cpp > CMakeFiles\C__Projects.dir\strings.cpp.i
 
-CMakeFiles/C__Projects.dir/switch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__Projects.dir/switch.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Practice\switch.cpp -o CMakeFiles\C__Projects.dir\switch.cpp.s
+CMakeFiles/C__Projects.dir/strings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C__Projects.dir/strings.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Practice\strings.cpp -o CMakeFiles\C__Projects.dir\strings.cpp.s
 
 # Object files for target C__Projects
 C__Projects_OBJECTS = \
-"CMakeFiles/C__Projects.dir/switch.cpp.obj"
+"CMakeFiles/C__Projects.dir/strings.cpp.obj"
 
 # External object files for target C__Projects
 C__Projects_EXTERNAL_OBJECTS =
 
-C__Projects.exe: CMakeFiles/C__Projects.dir/switch.cpp.obj
+C__Projects.exe: CMakeFiles/C__Projects.dir/strings.cpp.obj
 C__Projects.exe: CMakeFiles/C__Projects.dir/build.make
 C__Projects.exe: CMakeFiles/C__Projects.dir/linklibs.rsp
 C__Projects.exe: CMakeFiles/C__Projects.dir/objects1.rsp
