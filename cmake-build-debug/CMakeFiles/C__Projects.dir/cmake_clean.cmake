@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C__Projects.dir/pointers.cpp.obj"
+  "CMakeFiles/C__Projects.dir/tuples.cpp.obj"
   "C__Projects.exe"
   "C__Projects.exe.manifest"
   "C__Projects.pdb"
