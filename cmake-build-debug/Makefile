@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jason\C-Projects
+CMAKE_SOURCE_DIR = D:\C++Practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jason\C-Projects\cmake-build-debug
+CMAKE_BINARY_DIR = D:\C++Practice\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jason\C-Projects\cmake-build-debug\CMakeFiles C:\Users\jason\C-Projects\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Practice\cmake-build-debug\CMakeFiles D:\C++Practice\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jason\C-Projects\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Practice\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ C__Projects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/build
 .PHONY : C__Projects/fast
 
-while.obj: while.cpp.obj
-.PHONY : while.obj
+switch.obj: switch.cpp.obj
+.PHONY : switch.obj
 
 # target to build an object file
-while.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/while.cpp.obj
-.PHONY : while.cpp.obj
+switch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/switch.cpp.obj
+.PHONY : switch.cpp.obj
 
-while.i: while.cpp.i
-.PHONY : while.i
+switch.i: switch.cpp.i
+.PHONY : switch.i
 
 # target to preprocess a source file
-while.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/while.cpp.i
-.PHONY : while.cpp.i
+switch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/switch.cpp.i
+.PHONY : switch.cpp.i
 
-while.s: while.cpp.s
-.PHONY : while.s
+switch.s: switch.cpp.s
+.PHONY : switch.s
 
 # target to generate assembly for a file
-while.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/while.cpp.s
-.PHONY : while.cpp.s
+switch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/switch.cpp.s
+.PHONY : switch.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__Projects
-	@echo ... while.obj
-	@echo ... while.i
-	@echo ... while.s
+	@echo ... switch.obj
+	@echo ... switch.i
+	@echo ... switch.s
 .PHONY : help
 
 
