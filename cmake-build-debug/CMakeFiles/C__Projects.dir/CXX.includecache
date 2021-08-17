@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/jason/C-Projects/tuples.cpp
+iostream
+C:/Users/jason/C-Projects/iostream
+tuple
+C:/Users/jason/C-Projects/tuple
+
