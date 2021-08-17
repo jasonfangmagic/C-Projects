@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int x = 0;
+    int x = 5;
     switch (x+1) {
         case 1:
             cout << "cool";
@@ -11,6 +11,8 @@ int main() {
         case 2:
             cout << "not cool";
             break;
+        default:
+            cout << "default";
     }
 
 }
