@@ -2,7 +2,48 @@
 #include "string"
 using namespace std;
 
+
 int main() {
+    int x = 10;
+    do { int add;
+        cout << "Type a number to add to x: ";
+        cin >> add;
+        x += add;
+        cout << "x is: " << x << endl;
+    }
+    while(x < 10);
+}
+
+/*int main() {
+    int x = 10;
+        int add;
+        cout << "Type a number to add to x: ";
+        cin >> add;
+        x += add;
+        cout << "x is: " << x << endl;
+        while (x < 10) {
+            cout << "Type a number to add to x: ";
+            cin >> add;
+            x += add;
+            cout << "x is: " << x << endl;
+        }
+    }*/
+
+
+/*int main(){
+    for (int i=0; i<10; i++) {
+        if (i == 9 || i == 7){
+            continue;
+        }
+        cout << i << endl;
+    }
+}*/
+
+
+
+
+
+/*int main() {
     int input = -1;
     while (true){
         cout<< "Type the number 1 or 2: ";
@@ -16,7 +57,7 @@ int main() {
             break;
         }
     }
-    }
+}*/
 
 
 
