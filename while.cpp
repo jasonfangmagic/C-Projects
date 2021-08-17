@@ -1,14 +1,34 @@
 #include "iostream"
 #include "string"
-
 using namespace std;
+
 int main() {
+    int input = -1;
+    while (true){
+        cout<< "Type the number 1 or 2: ";
+        cin >> input;
+        if (input == 1 || input ==2){
+            cout << "hi";
+            break;
+
+        } else if (input == 4){
+            cout<< "fine";
+            break;
+        }
+    }
+    }
+
+
+
+
+
+/*int main() {
     int input = -1;
     while (input != 1 && input != 2){
         cout<< "Type the number 1 or 2: ";
         cin >> input;
     }
-}
+}*/
 
 
 
