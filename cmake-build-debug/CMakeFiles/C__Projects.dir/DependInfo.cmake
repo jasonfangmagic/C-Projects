@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/C++Practice/pointers.cpp" "D:/C++Practice/cmake-build-debug/CMakeFiles/C__Projects.dir/pointers.cpp.obj"
+  "C:/Users/jason/C-Projects/pointers.cpp" "C:/Users/jason/C-Projects/cmake-build-debug/CMakeFiles/C__Projects.dir/pointers.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
