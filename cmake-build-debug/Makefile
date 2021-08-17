@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C++Practice
+CMAKE_SOURCE_DIR = C:\Users\jason\C-Projects
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C++Practice\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\jason\C-Projects\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Practice\cmake-build-debug\CMakeFiles D:\C++Practice\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jason\C-Projects\cmake-build-debug\CMakeFiles C:\Users\jason\C-Projects\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C++Practice\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jason\C-Projects\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ C__Projects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/build
 .PHONY : C__Projects/fast
 
-forloops.obj: forloops.cpp.obj
-.PHONY : forloops.obj
+while.obj: while.cpp.obj
+.PHONY : while.obj
 
 # target to build an object file
-forloops.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/forloops.cpp.obj
-.PHONY : forloops.cpp.obj
+while.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/while.cpp.obj
+.PHONY : while.cpp.obj
 
-forloops.i: forloops.cpp.i
-.PHONY : forloops.i
+while.i: while.cpp.i
+.PHONY : while.i
 
 # target to preprocess a source file
-forloops.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/forloops.cpp.i
-.PHONY : forloops.cpp.i
+while.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/while.cpp.i
+.PHONY : while.cpp.i
 
-forloops.s: forloops.cpp.s
-.PHONY : forloops.s
+while.s: while.cpp.s
+.PHONY : while.s
 
 # target to generate assembly for a file
-forloops.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/forloops.cpp.s
-.PHONY : forloops.cpp.s
+while.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/while.cpp.s
+.PHONY : while.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__Projects
-	@echo ... forloops.obj
-	@echo ... forloops.i
-	@echo ... forloops.s
+	@echo ... while.obj
+	@echo ... while.i
+	@echo ... while.s
 .PHONY : help
 
 

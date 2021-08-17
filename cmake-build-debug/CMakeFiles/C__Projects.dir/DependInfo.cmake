@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/C++Practice/forloops.cpp" "D:/C++Practice/cmake-build-debug/CMakeFiles/C__Projects.dir/forloops.cpp.obj"
+  "C:/Users/jason/C-Projects/while.cpp" "C:/Users/jason/C-Projects/cmake-build-debug/CMakeFiles/C__Projects.dir/while.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
