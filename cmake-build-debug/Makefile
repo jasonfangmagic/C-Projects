@@ -128,29 +128,29 @@ C__Projects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/build
 .PHONY : C__Projects/fast
 
-strings.obj: strings.cpp.obj
-.PHONY : strings.obj
+references.obj: references.cpp.obj
+.PHONY : references.obj
 
 # target to build an object file
-strings.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/strings.cpp.obj
-.PHONY : strings.cpp.obj
+references.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/references.cpp.obj
+.PHONY : references.cpp.obj
 
-strings.i: strings.cpp.i
-.PHONY : strings.i
+references.i: references.cpp.i
+.PHONY : references.i
 
 # target to preprocess a source file
-strings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/strings.cpp.i
-.PHONY : strings.cpp.i
+references.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/references.cpp.i
+.PHONY : references.cpp.i
 
-strings.s: strings.cpp.s
-.PHONY : strings.s
+references.s: references.cpp.s
+.PHONY : references.s
 
 # target to generate assembly for a file
-strings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/strings.cpp.s
-.PHONY : strings.cpp.s
+references.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/references.cpp.s
+.PHONY : references.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__Projects
-	@echo ... strings.obj
-	@echo ... strings.i
-	@echo ... strings.s
+	@echo ... references.obj
+	@echo ... references.i
+	@echo ... references.s
 .PHONY : help
 
 

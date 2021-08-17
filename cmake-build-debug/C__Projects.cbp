@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++Practice/strings.cpp">
+		<Unit filename="D:/C++Practice/references.cpp">
 			<Option target="C__Projects"/>
 		</Unit>
 		<Unit filename="D:/C++Practice/CMakeLists.txt">

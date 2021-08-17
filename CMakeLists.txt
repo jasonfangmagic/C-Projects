@@ -3,4 +3,4 @@ project(C__Projects)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C__Projects strings.cpp)
+add_executable(C__Projects references.cpp)
