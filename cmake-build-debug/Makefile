@@ -128,29 +128,29 @@ C__Projects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/build
 .PHONY : C__Projects/fast
 
-vectors.obj: vectors.cpp.obj
-.PHONY : vectors.obj
+sets.obj: sets.cpp.obj
+.PHONY : sets.obj
 
 # target to build an object file
-vectors.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/vectors.cpp.obj
-.PHONY : vectors.cpp.obj
+sets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/sets.cpp.obj
+.PHONY : sets.cpp.obj
 
-vectors.i: vectors.cpp.i
-.PHONY : vectors.i
+sets.i: sets.cpp.i
+.PHONY : sets.i
 
 # target to preprocess a source file
-vectors.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/vectors.cpp.i
-.PHONY : vectors.cpp.i
+sets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/sets.cpp.i
+.PHONY : sets.cpp.i
 
-vectors.s: vectors.cpp.s
-.PHONY : vectors.s
+sets.s: sets.cpp.s
+.PHONY : sets.s
 
 # target to generate assembly for a file
-vectors.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/vectors.cpp.s
-.PHONY : vectors.cpp.s
+sets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/sets.cpp.s
+.PHONY : sets.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__Projects
-	@echo ... vectors.obj
-	@echo ... vectors.i
-	@echo ... vectors.s
+	@echo ... sets.obj
+	@echo ... sets.i
+	@echo ... sets.s
 .PHONY : help
 
 
