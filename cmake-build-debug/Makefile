@@ -128,29 +128,29 @@ C__Projects/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/build
 .PHONY : C__Projects/fast
 
-sets.obj: sets.cpp.obj
-.PHONY : sets.obj
+functions.obj: functions.cpp.obj
+.PHONY : functions.obj
 
 # target to build an object file
-sets.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/sets.cpp.obj
-.PHONY : sets.cpp.obj
+functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/functions.cpp.obj
+.PHONY : functions.cpp.obj
 
-sets.i: sets.cpp.i
-.PHONY : sets.i
+functions.i: functions.cpp.i
+.PHONY : functions.i
 
 # target to preprocess a source file
-sets.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/sets.cpp.i
-.PHONY : sets.cpp.i
+functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/functions.cpp.i
+.PHONY : functions.cpp.i
 
-sets.s: sets.cpp.s
-.PHONY : sets.s
+functions.s: functions.cpp.s
+.PHONY : functions.s
 
 # target to generate assembly for a file
-sets.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/sets.cpp.s
-.PHONY : sets.cpp.s
+functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__Projects.dir\build.make CMakeFiles/C__Projects.dir/functions.cpp.s
+.PHONY : functions.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__Projects
-	@echo ... sets.obj
-	@echo ... sets.i
-	@echo ... sets.s
+	@echo ... functions.obj
+	@echo ... functions.i
+	@echo ... functions.s
 .PHONY : help
 
 
